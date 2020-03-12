@@ -22,7 +22,6 @@ function App() {
 
       axios(apiurl).then(({ data }) => {
         let result = data.items;
-        console.log(result);
         setState(prevState => {
           return {...prevState, results:result}
         })
