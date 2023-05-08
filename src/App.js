@@ -43,7 +43,7 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<h1 className="title"> Github Database</h1>
+				<h1 className="title"> Github Database Demo</h1>
 			</header>
 			<main >
 				<Seacrh handleInput={handleInput} search={search} />
