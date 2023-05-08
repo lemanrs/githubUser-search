@@ -13,9 +13,9 @@ function Result({ result }) {
             Click to visit github profile
             </a>
             </div>
-            
             </div>
             <h3>{result.login}</h3>
+
         </div>
     )
 }
